@@ -36,3 +36,11 @@ export interface PillProps {
 export type LayoutProps = {
   children: ReactNode;
 };
+
+export interface BookingDetails {
+  propertyName: string;
+  startDate: string;
+  totalNights: number;
+  bookingFee: number;
+  price: number;
+}

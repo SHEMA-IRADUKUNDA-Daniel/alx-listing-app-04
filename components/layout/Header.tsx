@@ -106,10 +106,10 @@ const Header: React.FC = () => {
 
           {/* Auth Buttons */}
           <div className="flex items-center space-x-3">
-            <button className="bg-teal-600  text-white px-4 py-2 rounded-4xl hover:text-teal-700 font-medium">
+            <button className="bg-teal-600  text-white px-4 py-2 rounded-4xl hover:bg-teal-400 font-medium">
               Sign in
             </button>
-            <button className="text-teal-600 hover:bg-teal-700 font-medium">
+            <button className="text-teal-600 hover:bg-teal-600 hover:text-white px-4 py-2 font-medium rounded-4xl">
               Sign up
             </button>
           </div>

@@ -6,6 +6,7 @@ import Button from "@/components/common/Button";
 import Pill from "@/components/common/Pill";
 
 const filters = [
+  "All",
   "Top Villa",
   "Free Reschedule",
   "Book now, pay later",
