@@ -5,11 +5,23 @@ export interface ButtonPros {
   className?: string;
 }
 
+export interface Property {
+  id: string;
+  title: string;
+  description: string;
+  price: number;
+  image: string;
+  location: string;
+}
+export interface PropertyCardProps {
+  property: Property;
+}
 export interface CardProps {
   children: React.ReactNode;
   className?: string;
 }
 export interface PropertyProps {
+  id: number;
   name: string;
   address: {
     state: string;
@@ -44,3 +56,7 @@ export interface BookingDetails {
   bookingFee: number;
   price: number;
 }
+export type Review = {
+  id: string;
+  comment: string;
+};

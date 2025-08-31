@@ -109,7 +109,7 @@ const Header: React.FC = () => {
             <button className="bg-teal-600  text-white px-4 py-2 rounded-4xl hover:bg-teal-400 font-medium">
               Sign in
             </button>
-            <button className="text-teal-600 hover:bg-teal-600 hover:text-white px-4 py-2 font-medium rounded-4xl">
+            <button className="text-teal-600 border-1 px-4 py-2 font-medium rounded-4xl">
               Sign up
             </button>
           </div>
@@ -118,7 +118,7 @@ const Header: React.FC = () => {
 
       {/* Accommodation Types */}
       <div className="px-4 pb-4 pt-5 ml-17 mr-17">
-        <div className="flex overflow-x-auto space-x-6 pb-2">
+        <div className="flex align-center overflow-x-auto space-x-6 pb-2">
           {accommodationTypes.map((type, index) => (
             <div
               key={index}
